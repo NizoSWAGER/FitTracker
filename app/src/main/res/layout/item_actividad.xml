@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="8dp"
+    android:background="#EAF4F8">
+
+    <TextView
+        android:id="@+id/txtTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#16324F" />
+
+    <TextView
+        android:id="@+id/txtIntensidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intensidad" />
+
+    <TextView
+        android:id="@+id/txtAspectos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aspectos completados" />
+
+    <TextView
+        android:id="@+id/txtEsfuerzo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esfuerzo" />
+
+</LinearLayout>
